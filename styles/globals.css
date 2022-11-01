@@ -1,0 +1,101 @@
+html,
+body {
+  padding: 0;
+  margin: 10;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.title {
+  width: 100%;
+  text-align: center;
+}
+.dragalphabets {
+  width: 100%;
+  height: 250px;
+  background-color: hsl(144, 37%, 76%);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.dragbox {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  border: 1px solid black;
+  cursor: pointer;
+  color: aliceblue;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.dragNnot {
+  width: 100%;
+  height: 175px;
+  background-color: burlywood;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.dragarea {
+  width: 100%;
+  height: 175px;
+  background-color: azure;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 2px dashed black;
+  display: flex;
+  align-items: center;
+}
+.evaluate {
+  width: "100%";
+  height: 80px;
+  background-color: dodgerblue;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+}
+.evaluate:hover {
+  background-color: hsl(210, 100%, 46%);
+}
+.Signs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.greaterLess {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.primary {
+  width: 50px;
+  height: 50px;
+}
+.instructions{
+  text-align: center;
+}
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
