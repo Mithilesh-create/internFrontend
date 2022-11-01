@@ -145,6 +145,13 @@ export default function Home() {
       </div>
       <div className="instructions">
         <h1>Important instructions</h1>
+        <p>Value of A=5</p>
+        <p>Value of B=10</p>
+        <p>Value of C=15</p>
+        <p>Value of D=20</p>
+        <p>Value of E=25</p>
+
+
         <p>Drag A,B,C,D,E</p>
         <p>Click one time on greater and smaller than arrows to include in playground</p>
         <p>Click one time on ABCDE +-/* in playground to remove</p>
